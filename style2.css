@@ -1,0 +1,241 @@
+body{
+    background-color: #fefefe;
+}
+
+.h1{
+  font-size: 200%;
+  font-weight: 200;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 2.5rem;
+  color: #373B44; /* Elegant dark color */
+  margin-bottom: 1em;
+  position: relative; /* For positioning the underline */
+  overflow: hidden; /* Ensure underline stays within boundaries */
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+  align-self: center;
+}
+
+
+
+
+/* Create the underline */
+h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color); /* Underline color matching the hover color */
+  transition: width 0.3s ease;
+}
+
+/* Hover effect */
+h1:hover {
+  color: #007BFF; /* Change to a vibrant blue color */
+  text-shadow: 0 4px 6px rgba(0, 123, 255, 0.5); /* Glowing shadow effect */
+  transform: scale(1.01); /* Slightly scale the text */
+}
+
+h1:hover::after {
+  width: 100%; /* Expand underline to full width on hover */
+}
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.button-44 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-44:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-44:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-44:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.button-63 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-63:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-63:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-63:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+ 
+
+
+
+.droplet {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5); 
+  opacity: 0.8; 
+  pointer-events: none;
+  animation: fall 4s linear infinite;
+}
+
+
+.droplet.blue-drops {
+  background: rgba(0, 123, 255, 0.5); 
+}
+
+@keyframes fall {
+  from {
+      transform: translateY(-10vh);
+      opacity: 0.8;
+  }
+  to {
+      transform: translateY(100vh);
+      opacity: 0;
+  }
+}
+
+
+.droplet:nth-of-type(1) {
+  width: 10px;
+  height: 10px;
+  left: 10%;
+  animation-duration: 3s;
+}
+.droplet:nth-of-type(2) {
+  width: 15px;
+  height: 15px;
+  left: 30%;
+  animation-duration: 4s;
+}
+.droplet:nth-of-type(3) {
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  animation-duration: 5s;
+}
+.droplet:nth-of-type(4) {
+  width: 12px;
+  height: 12px;
+  left: 70%;
+  animation-duration: 3.5s;
+}
+.droplet:nth-of-type(5) {
+  width: 8px;
+  height: 8px;
+  left: 90%;
+  animation-duration: 4.5s;
+}
